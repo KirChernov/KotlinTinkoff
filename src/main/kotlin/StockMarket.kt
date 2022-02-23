@@ -5,7 +5,9 @@ interface StockMarket {
     val name : String
     val price : Int
 
-    fun purchase()
+    fun purchase(){
+        println ("poshel hahui")
+    }
 
     fun getInfo(){
         println ("$market Stock market is opened \n")

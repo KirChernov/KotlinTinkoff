@@ -10,4 +10,10 @@ fun main() {
     euro.check()
     val eqBuying = Buying(euro, gazprom, 15)
     eqBuying.buy()
+
+    val list = listOf(euro, gazprom)
+
+    list.forEach {
+        it.purchase()
+    }
 }
