@@ -1,12 +1,13 @@
 fun main() {
 
-    val Euro = Currency(90, "Moex", "Euro")
-    val Gazprom = Equity(283, "Moex", "Gazprom")
+    val euro = Currency(90, "Moex", "Euro")
+    val gazprom = Equity(283, "Moex", "Gazprom")
 
-    Euro.info()
-    Euro.purchase()
-    Gazprom.purchase()
-    Gazprom.depositMoney()
-    val EqBuy = Buy(Euro, Gazprom, 15)
-    EqBuy.buy()
+    euro.getInfo()
+    euro.purchase()
+    gazprom.purchase()
+    gazprom.depositMoney()
+    euro.check()
+    val eqBuying = Buying(euro, gazprom, 15)
+    eqBuying.buy()
 }

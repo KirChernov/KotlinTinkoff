@@ -1,8 +1,10 @@
-class Buy (val CurrencyBuy : Currency, val EquityBuy : Equity, val Number: Int) {
+class Buying (val currencyBuy : Currency,
+              val equityBuy : Equity,
+              val number: Int) {
     var sum = 0
     fun buy(){
-        sum = Number * CurrencyBuy.price
-        println ("Purchased $Number ${CurrencyBuy.name} for the amount of: $sum")
-        EquityBuy.depositMoney()
+        sum = number * currencyBuy.price
+        println ("Purchased $number ${currencyBuy.name} for the amount of: $sum")
+        equityBuy.depositMoney()
     }
 }

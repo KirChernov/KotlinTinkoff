@@ -7,7 +7,7 @@ interface StockMarket {
 
     fun purchase()
 
-    fun info(){
+    fun getInfo(){
         println ("$market Stock market is opened \n")
     }
 }
