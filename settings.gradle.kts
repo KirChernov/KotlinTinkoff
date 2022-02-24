@@ -1,3 +1,2 @@
 
-rootProject.name = "fisrt_project_Chernov"
-
+rootProject.name = "Kotlin-course"
