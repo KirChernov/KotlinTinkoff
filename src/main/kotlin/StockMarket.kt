@@ -6,7 +6,6 @@ interface StockMarket {
     val price : Int
 
     fun purchase(){
-        println ("poshel hahui")
     }
 
     fun getInfo(){
